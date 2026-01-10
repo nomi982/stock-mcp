@@ -1,0 +1,5 @@
+# stock-mcp 项目依赖
+# 用于A股数据获取
+akshare>=1.18.8
+# MCP服务器核心及CLI工具
+mcp[cli]>=1.25.0
