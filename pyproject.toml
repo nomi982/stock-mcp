@@ -1,0 +1,10 @@
+[project]
+name = "stock-mcp"
+version = "0.1.0"
+description = "一个mcp server 用于获取A股数据"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "akshare>=1.18.8",
+    "mcp[cli]>=1.25.0",
+]
